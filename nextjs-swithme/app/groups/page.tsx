@@ -48,11 +48,11 @@ const GroupsPage = () => {
                         <div className="flex gap-2 sm:gap-4 justify-between">
                             <span className="self-center font-bold text-black-600">분야</span>
                             {['대분류', '소분류'].map(label => (
-                                <FilterButton key={label} width={"w-96"}>{label}</FilterButton>
+                                <FilterButton key={label} width={"w-72"}>{label}</FilterButton>
                             ))}
                             <span className="self-center font-bold text-black-600 ml-4">위치</span>
                             {['구', '동'].map(label => (
-                                <FilterButton key={label} width={"w-96"}>{label}</FilterButton>
+                                <FilterButton key={label} width={"w-72"}>{label}</FilterButton>
                             ))}
                         </div>
                     </div>

@@ -13,10 +13,12 @@ const Search = () => {
                 <Link href='/groups'>
                     <div className="hidden sm:block text-sm font-semibold px-6 border-x-[1px] flex-1 text-center">근처 스터디</div>
                 </Link>
-                <div className=" text-sm pl-6 pr-2 text-gray-600 flex flex-row items-center gap-3 cursor-pointer">
-                    <div className="hidden sm:block font-semibold">스터디 생성</div>
-                    <div className="p-2 bg-[#0f3f27] rounded-full text-white"><BiPlus size={18} /></div>
-                </div>
+                <Link href='/create'>
+                    <div className=" text-sm pl-6 pr-2 text-gray-600 flex flex-row items-center gap-3 cursor-pointer">
+                        <div className="hidden sm:block font-semibold">스터디 생성</div>
+                        <div className="p-2 bg-[#0f3f27] rounded-full text-white"><BiPlus size={18} /></div>
+                    </div>
+                </Link>
             </div>
         </div>
     );
