@@ -1,0 +1,102 @@
+[
+  {
+    "study_id": "1",
+    "title": "리액트 같이 공부하실 분 모십니다.",
+    "category_name": "개발 - 프론트엔드",
+    "number_of_members": 50,
+    "member_name": "seoku_zin",
+    "study_info": "[개발 스터디 모집 내용 예시] 스터디 주제: 리액트를 배워나가면서...",
+    "study_status": 0,
+    "region_name": "동대문구 청량리동"
+  },
+  {
+    "study_id": "2",
+    "title": "Python 초급자 스터디 모집",
+    "category_name": "개발 - 백엔드",
+    "number_of_members": 10,
+    "member_name": "python_king",
+    "study_info": "Python을 처음 시작하는 분들을 위한 스터디입니다...",
+    "study_status": 1,
+    "region_name": "강남구 역삼동"
+  },
+  {
+    "study_id": "3",
+    "title": "자바스크립트 알고리즘 함께 풀어요!",
+    "category_name": "개발 - 프론트엔드",
+    "number_of_members": 20,
+    "member_name": "algo_master",
+    "study_info": "자바스크립트로 알고리즘 문제를 풀어보고 싶은 분들...",
+    "study_status": 2,
+    "region_name": "마포구 서교동"
+  },
+  {
+    "study_id": "4",
+    "title": "데이터 사이언스 기초 스터디",
+    "category_name": "데이터 사이언스",
+    "number_of_members": 15,
+    "member_name": "data_sci",
+    "study_info": "데이터 사이언스에 관심이 있으신 분들을 위한 스터디...",
+    "study_status": 0,
+    "region_name": "서대문구 홍제동"
+  },
+  {
+    "study_id": "5",
+    "title": "머신러닝 프로젝트 함께할 분",
+    "category_name": "데이터 사이언스",
+    "number_of_members": 8,
+    "member_name": "ml_lover",
+    "study_info": "머신러닝 프로젝트를 함께 진행하고 싶은 분들...",
+    "study_status": 1,
+    "region_name": "성북구 성북동"
+  },
+  {
+    "study_id": "6",
+    "title": "블록체인 기술에 대해 깊게 배우고 싶어요!",
+    "category_name": "블록체인",
+    "number_of_members": 25,
+    "member_name": "block_chain",
+    "study_info": "블록체인 기술에 대해 함께 깊게 탐구하는 스터디...",
+    "study_status": 2,
+    "region_name": "영등포구 여의도동"
+  },
+  {
+    "study_id": "7",
+    "title": "UI/UX 디자인 초급 스터디 모집",
+    "category_name": "디자인",
+    "number_of_members": 30,
+    "member_name": "designer_j",
+    "study_info": "UI/UX 디자인에 대한 기초를 함께 배우는 스터디...",
+    "study_status": 0,
+    "region_name": "노원구 상계동"
+  },
+  {
+    "study_id": "8",
+    "title": "AWS 클라우드 기술 배우기",
+    "category_name": "클라우드",
+    "number_of_members": 12,
+    "member_name": "cloud_expert",
+    "study_info": "AWS 클라우드 서비스에 대해 함께 배우는 스터디...",
+    "study_status": 1,
+    "region_name": "광진구 광장동"
+  },
+  {
+    "study_id": "9",
+    "title": "프론트엔드 최신 트렌드 스터디",
+    "category_name": "개발 - 프론트엔드",
+    "number_of_members": 18,
+    "member_name": "front_end",
+    "study_info": "프론트엔드 개발의 최신 트렌드를 함께 공유하는 스터디...",
+    "study_status": 2,
+    "region_name": "강서구 방화동"
+  },
+  {
+    "study_id": "10",
+    "title": "도커와 쿠버네티스 기초 스터디",
+    "category_name": "클라우드",
+    "number_of_members": 5,
+    "member_name": "docker_kube",
+    "study_info": "도커와 쿠버네티스를 처음부터 배우고 싶은 분들...",
+    "study_status": 0,
+    "region_name": "송파구 잠실동"
+  }
+]
