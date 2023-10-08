@@ -4,6 +4,7 @@ import FilterButton from "@/app/components/FilterButton";
 import CardList from "@/app/components/CardList";
 import LoadingPage from "@/app/loading";
 import CardSearch from "@/app/components/CardSearch";
+import CardPagination from "@/app/components/CardPagination";
 
 interface Group {
     study_id: string;
@@ -19,6 +20,8 @@ interface Group {
 const GroupsPage = () => {
     const [groups, setGroups] = useState<Group[]>([]);
     const [loading, setLoading] = useState(true);
+    const [currentPage, setCurrentPage] = useState(1);
+    const maxPage = 20;
 
     useEffect(()=>{
         const fetchGroups = async () => {
@@ -38,11 +41,13 @@ const GroupsPage = () => {
     return (
         <>
             <div className="flex flex-col justify-center p-4 md:p-8 min-h-[200px] border-b gap-4">
+
                 <div className=" gap-4 sm:gap-8 flex pb-2 border-b-[2px] border-gray-300">
                     {['전체', '모집 중', '모집 완료'].map(label => (
                         <span key={label} className="cursor-pointer hover:font-bold">{label}</span>
                     ))}
                 </div>
+
                 <div className="flex mt-4">
                     <div className="flex flex-col justify-between gap-4 sm:gap-10 flex-1">
                         <div className="flex gap-2 sm:gap-4 justify-between">
@@ -57,9 +62,14 @@ const GroupsPage = () => {
                         </div>
                     </div>
                 </div>
+
                 <CardSearch getCardResults={(results)=>setGroups(results)}/>
+
             </div>
+
             <CardList groups={groups}/>
+
+            <CardPagination currentPage={currentPage} setCurrentPage={setCurrentPage} maxPage={maxPage}/>
         </>
     );
 };
