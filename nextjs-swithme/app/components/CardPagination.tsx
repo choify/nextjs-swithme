@@ -1,4 +1,5 @@
 import React from 'react'
+import {IoIosArrowBack, IoIosArrowForward} from "react-icons/io";
 
 interface CardPaginationProps {
     currentPage: number;
@@ -28,7 +29,7 @@ const CardPagination: React.FC<CardPaginationProps> = ({ currentPage, setCurrent
     return (
         <div className="mt-4 flex justify-center">
             {currentPage > 1 && (
-                <button onClick={handlePrevPage} className="hover:font-bold">이전</button>
+                <button onClick={handlePrevPage} className="hover:font-bold"><IoIosArrowBack /></button>
             )}
             {pageNumbers.map(number => (
                 <span
@@ -41,7 +42,7 @@ const CardPagination: React.FC<CardPaginationProps> = ({ currentPage, setCurrent
             ))}
 
             {currentPage < maxPage && (
-                <button onClick={handleNextPage} className="hover:font-bold">다음</button>
+                <button onClick={handleNextPage} className="hover:font-bold"><IoIosArrowForward /></button>
             )}
         </div>
     )
